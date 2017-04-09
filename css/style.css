@@ -1,5 +1,5 @@
 body {
-  font: 14px "Century Gothic", Futura, sans-serif;
+  font: 34px "Century Gothic", Futura, sans-serif;
   margin: 20px;
 }
 
@@ -13,7 +13,7 @@ body {
   background: #fff;
   border: 1px solid black;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 46px;
   line-height: 120px;
   height: 120px;
   width: 120px;
@@ -35,7 +35,7 @@ body {
 }
 
 .player-status {
-  padding:5px;
+  padding: 10px;
   position: absolute;
   display: inline-block;
 }
