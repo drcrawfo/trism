@@ -1,0 +1,51 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+.board-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 70px;
+  height: 70px;
+  width: 70px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.square.X {
+  background-color: rgba(0, 163, 131, .3);
+}
+.square.O {
+  background-color: rgba(255, 100, 0, .3)
+}
+
+.player-status {
+  padding:5px;
+  position: absolute;
+  display: inline-block;
+}
+.player-status.active {
+  border: 1px solid grey;
+}
+.player-status.O {
+  right: 20px;
+}
+
+.game-status {
+  margin-bottom: 20px;
+}
