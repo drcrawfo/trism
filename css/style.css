@@ -42,6 +42,12 @@ body {
 .player-status.active {
   border: 1px solid grey;
 }
+.player-status.active.X {
+  background-color: rgba(0, 163, 131, .3);
+}
+.player-status.active.O {
+  background-color: rgba(255, 100, 0, .3)
+}
 .player-status.O {
   right: 20px;
 }
